@@ -2,10 +2,6 @@
 
 Link : https://orugunisatane.github.io/Webpage2/
 
-`
-This is a website for the organisation - Orugunisatane
-Code:
-`
 <html>
     <head>
     </head>
