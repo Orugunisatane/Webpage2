@@ -9,6 +9,6 @@ Link : https://orugunisatane.github.io/Webpage2/
         <h1>My First Page</h1>
         <p>This is my first page.</p>
         <hr>
-        <p>This is the footer - all rights are reserved to me.</p>
+        <p>This is the footer - all rights are reserved to Orugunisatane.</p>
     </body>
 </html>
