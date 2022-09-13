@@ -1,6 +1,6 @@
 # Webpage2
 
-Link : https://github.com/Orugunisatane/Webpage2.git
+Link : https://orugunisatane.github.io/Webpage2/
 
 <html>
     <head>
