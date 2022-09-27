@@ -1,11 +1,339 @@
+<!DOCTYPE html>
 <html>
-    <head>
-    </head>
-    <body>
-        <h1>Our First Page</h1>
-        <h1>You have reached the front end website</h1>
-        <p>This is my first page.</p>
-        <hr>
-        <p>This is the footer - all rights are reserved to Orugunisatane.</p>
+
+<head>
+  <title>Orugunisatane - Group </title>
+  <link rel="icon" type="image/x-icon" href="/Image/org.PNG">
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+    table,
+    th,
+    td {
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+
+    body {
+      font-family: monospace;
+  
+    }
+
+    h1 {
+      text-align: center;
+      font-family: monospace;
+    }
+
+    h2 {
+      text-align: center;
+      font-family: monospace;
+      color: black;
+    }
+
+    p {
+      text-align: center;
+      font-family: monospace;
+      color: navy;
+    }
+
+    a {
+      font-family: monospace;
+    }
+
+  </style>
+  <title>Orugunisatane </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="image" style="width: 25%">
+    <img src="Image/org.PNG" style="width: 25%">
+  </div>
+  <section id="home">
+    <h1><ins>Orugunisatane</ins></h1>
+  </section>
+
+  <!-- load javascript after loading all html content -->
+  <script src="script/script.js"></script>
+  <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Nav">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item active">
+            <button class="btn"><a class="nav-link" href="#home">Home</a></button>
+          </li>
+          <li class="nav-item">
+            <button class="btn"> <a class="nav-link" href="#about">About</a></button>
+          </li>
+          <li class="nav-item">
+            <button class="btn"> <a class="nav-link" href="#projects">Projects</a></button>
+          </li>
+          <li class="nav-item">
+            <button class="btn"> <a class="nav-link" href="#portfolio">Portfolio</a></button>
+          </li>
+          <li class="nav-item">
+            <button class="btn"> <a class="nav-link" href="#contact">Contact</a></button>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <p>Hello, we are Orugunisatane and this is our webpage. We are a small group of student who are learning to program
+    and this is our testing area. We will be listing our achievements and projects here as we progress our understanding
+    of different languages and improve our skills. Thank you for taking your time to visit our webpage.</p>
+
+  <p><mark> This Webpage is our first and i will try to keep it quite clean
+      and simple to view!</mark></p>
+
+  <center>
+    <div class="image" style="width: 20%">
+      <img src="" style="width: 100%">
+    </div>
+  </center>
+
+  <div class="main">
+    <section id="projects">
+      <h1><ins>Projects</ins></h1>
+      <hr>
+    </section>
+
+    <p><strong>Not much here but click the buttons to view what we have been doing recently, hopefuly we can add more in
+        the future.</strong></p>
+
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'Current')">Webpage</button>
+      <button class="tablinks" onclick="openCity(event, 'Empty1')">N/A</button>
+      <button class="tablinks" onclick="openCity(event, 'Empty2')">N/A</button>
+    </div>
+
+    <div id="Current" class="tabcontent">
+      <h2><b>Current Webpage</b></h2>
+      <p style="text-align: center;"> This webpage that is currently being programmed, believe it or not is the one your
+        looking at!</p>
+
+
+      <div id="banner" style="overflow: hidden; display: inline-block;">
+        <div class="image" style="width: 50%">
+          <img src="Image/MT.png" style="width: 100%">
+        </div>
+
+        <div class="image" style="width: 20%">
+          <img src="" style="width: 100%">
+        </div>
+
+        <div class="image" style="width: 20%">
+          <img src="" style="width: 100%">
+        </div>
+
+        <div class="image" style="width: 19%">
+          <img src="" style="width: 100%">
+        </div>
+
+        <div class="image" style="width: 19%">
+          <img src="" style="width: 100%">
+        </div>
+
+        <h3 style="text-align: center"><strong>Our Work</strong></h3>
+        <p style="text-align: center;">As you can see this is but a website to hold all our projects throughout our
+          organisations existance.</p>
+      </div>
+    </div>
+
+    <div id="Empty1" class="tabcontent">
+      <h3>Random Title</h3>9
+      <p>Random Description</p>
+    </div>
+
+    <div id="Empty2" class="tabcontent">
+      <h3>Random Title</h3>
+      <p>Random Description</p>
+    </div>
+
+
+
+    <div class="row">
+      <div class="column" style="background-color:#aaa;Width: 25%">
+        <h2 style="color: orangered;">HTML</h2>
+        <p>HyperText Markup Language, HTML is the standard used for creating Web pages. HTML describes the structure of
+          a Web page.<br><sub><i>Know basics (learning)</i></sub></p>
+      </div>
+      <div class="column" style="background-color:#bbb;Width: 25%">
+        <h2 style="color: navy;">CSS</h2>
+        <p>Cascading Style Sheets, CSS is the language for describing the presentation of Web pages, including colors,
+          layout, and fonts.<br><sub><i>Know basics (learning)</i></sub></p>
+      </div>
+      <div class="column" style="background-color:#ccc;Width: 25%">
+        <h2 style="color: darkslateblue;">JAVASCRIPT</h2>
+        <p>JavaScript is a programming language, used both on the client-side and server-side that allows you to make
+          web pages interactive.<br><sub><i>Know basics (learning)</i></sub></p>
+      </div>
+      <div class="column" style="background-color:#ddd;Width: 25%">
+        <h2 style="color: darkviolet;">PYTHON</h2>
+        <p>Python is a high-level programming language, often used to develop the back end of a website or
+          application—the parts that a user doesn't see.<br><sub><i>Know basics (learning)</i></sub><br></p>
+      </div>
+    </div>
+    <p style="margin-left: 0em;padding: 0.1em 0;border-width: 2px; border-color: black; border-style:solid;"><b></b></p>
+    <center>
+
+      <video width="450" height="310" controls>
+        <source src="EldenRing.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+      </video>
+
+      <section class="bgimage" id="home">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+              <p style="color: navy;">This Video is perhaps one of the most confusing and irrelevant video to ever be
+                placed in this great webpage.</p>
+              <img src="">
+              <h2 class="hero-title"><br> Orugunisatane</h2>
+              <p class="hero-desc"> Something goes here ---> "Si Abuela!" </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="conatiner mt-4 pt-4">
+          <h1 class="text-center">About Us</h1>
+          <div class="col-lg-8">
+            <p>Hello, we are Orugunisatane and we are a of of students learning to program, our members are listed
+              below.</p>
+            <div class="row mt-3">
+              <div class="col md-6">
+                <ul>
+                  <a>Name: Dougal Bradwell, </a>
+                  <a>Age: 18, </a>
+                  <a>Occupation: Student</a>
+                </ul>
+              </div>
+            </div>
+            <div class="col md-6">
+              <ul>
+                <a>Name: Ben Hopkins, </a>
+                <a>Age: 17, </a>
+                <a>Occupation: Student</a>
+              </ul>
+            </div>
+            <div class="col md-6">
+              <ul>
+                <a>Name: Tim Oakley, </a>
+                <a>Age: 17, </a>
+                <a>Occupation: Student</a>
+              </ul>
+            </div>
+            <div class="col md-6">
+              <ul>
+                <a>Name: Harry Redman, </a>
+                <a>Age: 17, </a>
+                <a>Occupation: Student</a>
+              </ul>
+            </div>
+            <div class="col md-6">
+              <ul>
+                <a>Name: Alfie Wakeling </a>
+                <a>Age: 18 </a>
+                <a>Occupation: Student</a>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="image" style="width: 50%">
+          <img src="https://media0.giphy.com/media/l0HlQXlQ3nHyLMvte/giphy.gif" style="width: 25%">
+        </div>
+        <br>
+        <p style="text-align: center;">When we aren't in college, we like to get pizza from Sainsburys,<br> go to
+          wetherspoons
+          for
+          lunch and we all have a keen intrest in card games, such as UNO, Blackjack (without the use of real
+          currency).<br>
+          In the future, we are deciding between going to Bournemouth University, or doing an apprenticeship.</p>
+
+
+        <div class="col-lg-8">
+          <section id="portfolio">
+            <div class="conatiner mt-4 pt-4">
+              <h1 class="text-center">Portfolio</h1>
+              <ul>
+                -. . ...- . .-.
+                --. --- -. -. .-
+                --. .. ...- .
+                -.-- --- ..-
+                ..- .--.
+
+                -. . ...- . .-.
+                --. --- -. -. .-
+                .-.. . -
+                -.-- --- ..-
+                -.. --- .-- -.
+              </ul>
+            </div>
+        </div>
+      </section>
+      <section id="contact">
+
+        <h3 style="text-align: center;" style="font-family: monospace;">Contact Form</h3>
+        <a style="text-align: center;">A member of Orugunisatane will respond to your message within 5-8 business years.
+          You will not be forgotten.<br>
+          If you do not hear back after those years, please try again.<br>Due to the Ukraine war and the death of Queen
+          Elizabeth II, things have been
+          disrupted, and we have all been affected by this.<br> We appologies deeply in advance.</a>
+
+        <div class="container">
+          <form action="contact.html"><br>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <br>
+            <br>
+
+            <label for="subject">Subject</label><br>
+            <textarea id="subject" name="subject" placeholder="Write something.."
+              style="height:200px;width: 300px;"></textarea><br>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </section>
+
+
+      <p><sub><b><br></br>Rights Reserved.<br>The Orugunisatane webpage<i><br>2022 - 2069</i>          </b></sub></p>
+
+      <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+      </script>
+    </center>
     </body>
-</html>
+    </html>
