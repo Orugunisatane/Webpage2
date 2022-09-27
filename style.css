@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #ededed
+  background-color: #ffffff
 }
 
     .image {
@@ -40,8 +40,8 @@ display: inline-block;
 /* Style the tab */
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
 }
 
 /* Style the buttons inside the tab */
@@ -72,4 +72,54 @@ display: inline-block;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+}
+
+.btn {
+  background-color: #ffffff;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #b3b3b3;
+  opacity: 1;
+  color: white;
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
 }
